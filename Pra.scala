@@ -8,8 +8,8 @@ object pra{
     // varでは再代入できない
     // num2 = 10
 
-    var float = 0.1
-    var float = 0.1F
+    var float1 = 0.1
+    var float2 = 0.1F
 
     var t = true
     var f = false
