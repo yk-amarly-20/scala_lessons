@@ -1,0 +1,4 @@
+[debug] [scala_lessons-test] Classpath dependencies List()
+[debug] [scala_lessons-test] Dependencies from configurations List(scala_lessons)
+[debug] Bloop wrote the configuration of project 'scala_lessons-test' to '/Users/kojimayuto/Desktop/scala_lessons/.bloop/scala_lessons-test.json'
+[success] Generated .bloop/scala_lessons-test.json

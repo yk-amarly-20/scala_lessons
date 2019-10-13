@@ -1,5 +1,5 @@
-object pra{
-  def main(args:Array[String]):Unit = {
+object pra {
+  def main(args: Array[String]): Unit = {
     var num: Int = 10
     println(num)
 
@@ -9,7 +9,7 @@ object pra{
     // num2 = 10
 
     var float1 = 0.1
-    var float2 = 0.1F
+    var float2 = 0.1f
 
     var t = true
     var f = false
@@ -20,8 +20,6 @@ object pra{
     val s = "hello"
     // """で囲うと生の文字列になる
     val es = """\"\'\\"""
-
-
 
   }
 }
