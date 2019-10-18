@@ -1,6 +1,6 @@
 // 有理数クラス
 
-class Rational(n: Int, d: Int) {
+class Rational(n: Int, d: Int) extends Ordered[Rational] {
   require(d != 0)
   private val g = gcd(n.abs, d.abs)
   val numer: Int = n / g
@@ -47,5 +47,9 @@ class Rational(n: Int, d: Int) {
 
   private def gcd(a: Int, b: Int): Int = {
     if (b == 0) a else gcd(b, a % b)
+  }
+
+  def compare(that: Rational) = {
+    (this.numer * that.denom) - (that.numer * this.denom)
   }
 }
