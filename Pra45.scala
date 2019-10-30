@@ -17,4 +17,8 @@ object Pra45 {
     case List()   => xs
     case x :: xs1 => rev(xs1) ::: List(x)
   }
+
+  // リストのソート
+  val intSort = msort((x: Int, y: Int) => x < y) _
+  val reverseIntSort = msort((x: Int, y: Int) => x > y) _
 }
